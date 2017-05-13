@@ -1,0 +1,23 @@
+{
+  "name": "ng4-base",
+  "version": "1.0.0",
+  "description": "An Angular base set up",
+  "main": "index.js",
+  "author": "Richard Durazo",
+  "license": "MIT",
+  "dependencies": {
+    "@angular/animations": "^4.1.2",
+    "@angular/common": "^4.1.2",
+    "@angular/compiler": "^4.1.2",
+    "@angular/compiler-cli": "^4.1.2",
+    "@angular/forms": "^4.1.2",
+    "@angular/http": "^4.1.2",
+    "@angular/platform-browser": "^4.1.2",
+    "@angular/platform-browser-dynamic": "^4.1.2",
+    "@angular/platform-server": "^4.1.2",
+    "@angular/router": "^4.1.2",
+    "@angular/upgrade": "^4.1.2",
+    "core-js": "^2.4.1",
+    "zone.js": "^0.8.10"
+  }
+}
