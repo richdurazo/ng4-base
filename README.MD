@@ -14,6 +14,12 @@ The main puporse of this project is to have more control over an Angular build. 
 
 Installation instructions to come
 
+## Docs & notes
+
+visit [Angular Docs](https://angular.io/docs/ts/latest/) for more information
+
+
+
 
 
 
