@@ -5,17 +5,17 @@ var commonConfig = require('./webpack.config.common');
 module.exports = webpackMerge(commonConfig, {
     devtool: 'cheap-module-eval-source-map',
     output: {
-        path: path.resolve(_dirname, 'dist'),
+        path: path.resolve(__dirname, 'dist'),
         publicPath: '/',
         filename: 'bundle.js',
-        chunFilename: '[id].chunk.js'
+        chunkFilename: '[id].chunk.js'
     },
     module: {
         rules: [
             {
                 test: /\.ts$/,
                 use: [
-                    { loader: 'awesome-typescripti-loader', options: {
+                    { loader: 'awesome-typescript-loader', options: {
                         transpileOnly: true
                     }},
                     { loader: 'angular2-template-loader' },
@@ -27,6 +27,6 @@ module.exports = webpackMerge(commonConfig, {
     },
     devServer: {
         historyApiFallback: true,
-        states: 'minimal'
+        stats: 'minimal'
     }
 });
